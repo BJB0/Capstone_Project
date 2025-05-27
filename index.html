@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <title>HealthReach - Find Hospitals & Doctors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Bright, full-screen background video -->
+  <video autoplay muted loop id="background-video">
+    <source src="videoplayback/3197638-hd_1920_1080_25fps.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <span class="logo-health">Health</span><span class="logo-reach">Reach</span>
+        </a>
+      </div>
+      <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Find Healthcare Services in Assam</h1>
+        <p>Search for hospitals and doctors to get the care you need.</p>
+        
+        <div class="search-container">
+          <div class="search-location">
+            <label for="location">Location</label>
+            <select id="location">
+              <option value="all">All Locations</option>
+              <option value="Tezpur">Tezpur</option>
+              <option value="Guwahati">Guwahati</option>
+              <option value="Dibrugarh">Dibrugarh</option>
+            </select>
+          </div>
+          <div class="search-hospital">
+            <label for="hospital-search">Hospital</label>
+            <input type="text" id="hospital-search" placeholder="Search hospital name...">
+          </div>
+          <button id="search-btn">Search</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="results-section">
+      <h2>Hospitals in Assam</h2>
+      <div id="hospital-results" class="hospital-list">
+        <!-- Hospital cards will be inserted here by JavaScript -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>Helping Assam stay healthy. © 2025 HealthReach</p>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="doctors.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

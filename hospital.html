@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <title>Hospital Details - HealthReach</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="index.html">
+            <span class="logo-health">Health</span><span class="logo-reach">Reach</span>
+          </a>
+        </div>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hospital-details">
+        <div class="back-button">
+          <a href="index.html">&larr; Back to search</a>
+        </div>
+        
+        <div id="hospital-info" class="hospital-info">
+          <!-- Hospital details will be inserted here by JavaScript -->
+        </div>
+
+        <div class="map-section">
+          <h2>Location</h2>
+          <div id="map-container" class="map-container">
+            <!-- Map will be inserted here by JavaScript -->
+          </div>
+        </div>
+
+        <div class="doctor-section">
+          <h2>Our Doctors</h2>
+          <div id="doctor-list" class="doctor-list">
+            <!-- Doctor cards will be inserted here by JavaScript -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>Helping Assam stay healthy. © 2025 HealthReach</p>
+      </div>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="doctors.js"></script>
+
+    <script src="script.js"></script>
+   
+  </body>
+</html>
