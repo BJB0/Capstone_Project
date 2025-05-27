@@ -105,7 +105,7 @@ git clone https://github.com/BJB0/Capstone_Project.git
 - Unsplash (for background video source, if applicable)  
   [https://unsplash.com](https://unsplash.com)
 
-- Bootstrap Documentation (for design inspiration, if used)  
+- Bootstrap Documentation (for design inspiration)  
   [https://getbootstrap.com](https://getbootstrap.com)
 
 - GitHub Documentation (for repository setup and version control)  
